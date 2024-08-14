@@ -1,0 +1,39 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 3px 5px rgba(255, 64, 129, 0.5);  
+}
+
+.Navbar a {
+  float: left;
+  display: flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.Navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.Navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.loginbtn {
+  margin-left: auto; 
+
+  padding: 10px 20px;
+  border: none;
+}
