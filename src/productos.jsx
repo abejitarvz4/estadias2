@@ -1,5 +1,7 @@
 import './productos.css'
-
-<div container>
+function Graficas(){
     
-</div>
+
+}
+
+export default Graficas
